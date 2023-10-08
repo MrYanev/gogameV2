@@ -6,8 +6,8 @@ import (
 )
 
 const (
-	screenWidth  = 1200
-	screenHeight = 950
+	ScreenWidth  = 300
+	ScreenHeight = 300
 )
 
 type Game struct{}
@@ -26,5 +26,5 @@ func (g *Game) Update() error {
 }
 
 func (g *Game) Layout(outsideWidth, outsideHeight int) (int, int) {
-	return screenWidth, screenHeight
+	return ScreenHeight, ScreenWidth
 }
