@@ -1,8 +1,9 @@
 package main
 
 import (
-	"gogameV2/internal"
 	"log"
+
+	"github.com/MrYanev/gogameV2/internal"
 
 	"github.com/hajimehoshi/ebiten/v2"
 )

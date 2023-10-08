@@ -12,6 +12,11 @@ const (
 
 type Game struct{}
 
+func NewGame() *Game {
+	g := &Game{}
+	return g
+}
+
 func (g *Game) Draw(screen *ebiten.Image) {
 	ebitenutil.DebugPrint(screen, "Testing unit")
 }
